@@ -3,7 +3,9 @@ def prime?(number)
   if number > 1 
     false 
   else 
-(2..number-1).none? { |num| number % num == 0 }
+(2..number-1).none? do |num|
+  number % num == 0 
+end
 end 
 
 prime?(2) 
