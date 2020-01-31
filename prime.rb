@@ -2,10 +2,10 @@
 def prime?(number)
   if number > 1 
     false 
-  else 
+  else true
 (2..number-1).any? do |num|
   number % num == 0
-  return true
+  
 end
 end 
 end 
