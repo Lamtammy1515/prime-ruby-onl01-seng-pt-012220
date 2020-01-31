@@ -4,7 +4,7 @@ def prime?(number)
    return false 
   else 
     return true
-(2..number-1).any? do |num|
+(2..number-1).none? do |num|
   number % num == 0
   
 end
