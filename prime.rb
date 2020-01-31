@@ -1,8 +1,9 @@
 # Add  code here!
 def prime?(number)
-  if number > 1 
-    false 
-  else true
+  if number > 2
+   return
+   false 
+  else 
 (2..number-1).any? do |num|
   number % num == 0
   
