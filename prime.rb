@@ -1,10 +1,8 @@
-# Add  code here!
-def prime?(number)
-(2..number-1).none? do |num|
-  number % num == 0
-end
-  
-if number > 2
+if number < 2 
    return false 
-  end 
+ else
+   (2..number - 1).to_a.all? do |n|
+     number % n !=0
+   end 
+ end 
 end 
