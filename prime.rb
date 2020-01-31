@@ -7,6 +7,4 @@ def prime?(number)
   number % num == 0 
 end
 end 
-
-prime?(2) 
-prime?(-1) 
+end 
